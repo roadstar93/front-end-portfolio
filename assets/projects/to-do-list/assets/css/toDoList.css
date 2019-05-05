@@ -1,0 +1,120 @@
+.navbar-style {
+    width: 100%;
+}
+
+.h1-list {
+    background: #2980b9;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #2BC0E4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EAECC6, #2BC0E4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li {
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    /*this only changes the height of the line not the text*/
+    color: #666;
+}
+
+input {
+    font-size: 18px;
+    background: #f7f7f7;
+    width: 100%;
+    /*it will take 100% of the input field*/
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    color: #2980b9;
+    border: 3px solid rgba(0, 0, 0, 0.0);
+}
+
+.span-list {
+    background: #e74e3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+input:focus {
+    /*This will change the style of the focus (when you click the box)*/
+    background: white;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+li:nth-child(2n) {
+    /*This means that every 2nd child of li will have the properties below */
+    background-color: #f7f7f7;
+}
+
+#container {
+    width: 360px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    /*New propriety for adding shadows*/
+    margin: 100px auto;
+    margin-bottom: 0;
+    /*Setting the div on center of the page*/
+    background: #f7f7f7;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.fa-plus-square {
+    float: right;
+}
+
+.service-btn {
+    margin: 10px;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.service-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #2980b9;
+}
+
+p {
+    margin-left: 56.5%;
+}

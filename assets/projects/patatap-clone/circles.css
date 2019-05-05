@@ -1,0 +1,41 @@
+canvas {
+	background: black;
+    width: 100%;
+    margin-bottom: -80px;
+}
+
+/*wwe make the body full screen*/
+
+body, html {
+	width: 100%;
+	margin: 0;
+	background: #34495e;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.service-btn {
+    margin: 10px;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.service-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #2980b9;
+}
+
+p {
+    margin: 0;
+}

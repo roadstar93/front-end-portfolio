@@ -1,0 +1,111 @@
+body {
+    background-color: #232323;
+    margin: 0;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+    /*This adds rounded corners*/
+    transition: background 0.5s;
+    /*We are animating when the background changes, all other changes are ignored*/
+    -webkit-transition: background 0.5s;
+    /*This is making sure that the transition works for browsers with the webkit engine*/
+    -moz-transition: background 0.5s;
+    /*Same thing but for mozilla engine*/
+}
+
+#container {
+    /* Centering the main container with the squares */
+    max-width: 600px;
+    margin: 20px auto;
+    /*This means 20px top and botton and auto on left and right*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background: steelblue;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+
+/* span {
+    color: white;
+} */
+
+#stripe {
+    margin: 0 auto;
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+button {
+    border: none;
+    outline: none;
+    /*This removes the outline when you select the button*/
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 800;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    /*This animates the transition*/
+    -webkit-transition: all 0.3s;
+    /*This is making sure that the transition works for browsers with the webkit engine*/
+    -moz-transition: all 0.3s;
+    /*Same thing but for mozilla engine*/
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+.service-btn {
+    margin: 10px;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.service-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #2980b9;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Adding the styling for the game-->
+    <link rel="stylesheet" href="colorGame.css">
+    <title>Color Guessing Game</title>
+  
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>The great
+        <br>
+        <span id="colorDisplay">RGB</span>
+        <br>
+        Color Game</h1>
+    <!--We are putting a span before RGB so we can change it to our color-->
+
+    <div id="stripe">
+        <button class="game-btn" id="reset">New colors</button>
+        <span id="message"></span>
+        <button class="mode game-btn">Easy</button>
+        <button class="mode game-btn selected">Hard</button>
+    </div>
+
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <p>
+        <a class="service-btn" href="../../../index.html"><i class="fas fa-long-arrow-alt-left"></i> Go Back</a>
+    </p>
+
+    <!--Adding the script for the game-->
+    <script src="colorGame.js"></script>
+</body>
+
+</html>
